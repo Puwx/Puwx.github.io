@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9929738e996e4adc9dd4c02a0aecbf7c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9929738e996e4adc9dd4c02a0aecbf7c" ></div>
+        
+</body>
+<script>    
+    
+            var map_9929738e996e4adc9dd4c02a0aecbf7c = L.map(
+                "map_9929738e996e4adc9dd4c02a0aecbf7c",
+                {
+                    center: [50.668479, -120.330881],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b2e8bc068cc24b7eac44460bb1d6dcd0 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9929738e996e4adc9dd4c02a0aecbf7c);
+        
+    
+            var marker_ecdfb1db0e284aec9335ac954155bde7 = L.marker(
+                [51.093779, -115.356288],
+                {}
+            ).addTo(map_9929738e996e4adc9dd4c02a0aecbf7c);
+        
+    
+            var icon_19753084b1e64bfa964333e0633c40c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ecdfb1db0e284aec9335ac954155bde7.setIcon(icon_19753084b1e64bfa964333e0633c40c0);
+        
+    
+        var popup_b1e9a0e8edf145bfae54b5be7c999eaa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_219222999e8045aebf50a42602953d03 = $(`<div id="html_219222999e8045aebf50a42602953d03" style="width: 100.0%; height: 100.0%;"><b>Safeway</b><br>Courtesy Clerk/Cashier</div>`)[0];
+            popup_b1e9a0e8edf145bfae54b5be7c999eaa.setContent(html_219222999e8045aebf50a42602953d03);
+        
+
+        marker_ecdfb1db0e284aec9335ac954155bde7.bindPopup(popup_b1e9a0e8edf145bfae54b5be7c999eaa)
+        ;
+
+        
+    
+    
+            marker_ecdfb1db0e284aec9335ac954155bde7.bindTooltip(
+                `<div>
+                     <b>WORK EXPERIENCE</b> Safeway | Courtesy Clerk/Cashier
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fbf82be668f7491db071f7a9ea3df5a4 = L.marker(
+                [51.091319, -115.353928],
+                {}
+            ).addTo(map_9929738e996e4adc9dd4c02a0aecbf7c);
+        
+    
+            var icon_175b112c2f174e21bdd91f3de519c194 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fbf82be668f7491db071f7a9ea3df5a4.setIcon(icon_175b112c2f174e21bdd91f3de519c194);
+        
+    
+        var popup_f8ec6250b71c467fa50bc3dd205c5cc6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aae926daf7914caead1c7694ad018583 = $(`<div id="html_aae926daf7914caead1c7694ad018583" style="width: 100.0%; height: 100.0%;"><b>Save-On Foods</b><br>Courtesy Clerk/Cashier/Schematics</div>`)[0];
+            popup_f8ec6250b71c467fa50bc3dd205c5cc6.setContent(html_aae926daf7914caead1c7694ad018583);
+        
+
+        marker_fbf82be668f7491db071f7a9ea3df5a4.bindPopup(popup_f8ec6250b71c467fa50bc3dd205c5cc6)
+        ;
+
+        
+    
+    
+            marker_fbf82be668f7491db071f7a9ea3df5a4.bindTooltip(
+                `<div>
+                     <b> WORK EXPERIENCE </b><br> Save-On Foods <br> Courtesy Clerk/Cashier/Schematics
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff1f04c4ecba4794987783bdcd6ce6b9 = L.marker(
+                [51.060066, -115.170185],
+                {}
+            ).addTo(map_9929738e996e4adc9dd4c02a0aecbf7c);
+        
+    
+            var icon_e97b97a69dbd49ef946e6f552bfe7b04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ff1f04c4ecba4794987783bdcd6ce6b9.setIcon(icon_e97b97a69dbd49ef946e6f552bfe7b04);
+        
+    
+        var popup_bed8f7d0b3d64e199483168bb43593b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a01de1146d04973bd4038efa0626b4d = $(`<div id="html_3a01de1146d04973bd4038efa0626b4d" style="width: 100.0%; height: 100.0%;"><b>Lafarge Holcim</b><br>Yard Worker/Small Equipment Operator/ Garage Assisstant</div>`)[0];
+            popup_bed8f7d0b3d64e199483168bb43593b8.setContent(html_3a01de1146d04973bd4038efa0626b4d);
+        
+
+        marker_ff1f04c4ecba4794987783bdcd6ce6b9.bindPopup(popup_bed8f7d0b3d64e199483168bb43593b8)
+        ;
+
+        
+    
+    
+            marker_ff1f04c4ecba4794987783bdcd6ce6b9.bindTooltip(
+                `<div>
+                     <b> WORK EXPERIENCE </b> Lafarge Holcim | Yard Worker/Small Equipment Operator/ Garage Assisstant
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_529276f884e74da3877370c35669b570 = L.marker(
+                [51.065213, -114.08803],
+                {}
+            ).addTo(map_9929738e996e4adc9dd4c02a0aecbf7c);
+        
+    
+            var icon_4465017d9c30424ea3684a34a2a01af5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_529276f884e74da3877370c35669b570.setIcon(icon_4465017d9c30424ea3684a34a2a01af5);
+        
+    
+        var popup_5df68bb787bc4ac393300f591831a536 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca0f9e35170543bca556d8d621fcbae8 = $(`<div id="html_ca0f9e35170543bca556d8d621fcbae8" style="width: 100.0%; height: 100.0%;"><b>Southern Alberat Institute of Technology</b><br>Broadcasting Systems Technology</div>`)[0];
+            popup_5df68bb787bc4ac393300f591831a536.setContent(html_ca0f9e35170543bca556d8d621fcbae8);
+        
+
+        marker_529276f884e74da3877370c35669b570.bindPopup(popup_5df68bb787bc4ac393300f591831a536)
+        ;
+
+        
+    
+    
+            marker_529276f884e74da3877370c35669b570.bindTooltip(
+                `<div>
+                     <b>EDUCATION</b> Southern Alberta Institute of Technology | Broadcasting Systems Technology
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac1a04c00c8a42c7b6cc8cc60883e1d9 = L.marker(
+                [51.063449, -114.086574],
+                {}
+            ).addTo(map_9929738e996e4adc9dd4c02a0aecbf7c);
+        
+    
+            var icon_2335dde582a44d0cb6b8a7a216a505b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ac1a04c00c8a42c7b6cc8cc60883e1d9.setIcon(icon_2335dde582a44d0cb6b8a7a216a505b0);
+        
+    
+        var popup_daa2ec0e907c43758ce391bbbd36ba52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_182063c97da340768974ffa1c41a10d1 = $(`<div id="html_182063c97da340768974ffa1c41a10d1" style="width: 100.0%; height: 100.0%;"><b>Southern Alberta Institute of Technology</b><br>Bachelor of Applied Tech. - Geographic Information Systems</div>`)[0];
+            popup_daa2ec0e907c43758ce391bbbd36ba52.setContent(html_182063c97da340768974ffa1c41a10d1);
+        
+
+        marker_ac1a04c00c8a42c7b6cc8cc60883e1d9.bindPopup(popup_daa2ec0e907c43758ce391bbbd36ba52)
+        ;
+
+        
+    
+    
+            marker_ac1a04c00c8a42c7b6cc8cc60883e1d9.bindTooltip(
+                `<div>
+                     <b>EDUCATION</b> Southern Alberta Institute of Technology<br>Bachelor of Applied Tech. - Geographic Information Systems
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae500a1f2d664781bed60ebfcdf3327d = L.marker(
+                [50.668479, -120.330881],
+                {}
+            ).addTo(map_9929738e996e4adc9dd4c02a0aecbf7c);
+        
+    
+            var icon_14eb343f8ac44bd7824effe9c1a81b08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ae500a1f2d664781bed60ebfcdf3327d.setIcon(icon_14eb343f8ac44bd7824effe9c1a81b08);
+        
+    
+        var popup_3bbc318a7620461a96c5e7bc976a1f53 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67036399dfec49a98c909b5277920115 = $(`<div id="html_67036399dfec49a98c909b5277920115" style="width: 100.0%; height: 100.0%;"><b>Ministry of Transporation and Infrastructure<u>CURRENT</u></b><br>GIS Co-op/GIS Technician/ Spatial Analyst</div>`)[0];
+            popup_3bbc318a7620461a96c5e7bc976a1f53.setContent(html_67036399dfec49a98c909b5277920115);
+        
+
+        marker_ae500a1f2d664781bed60ebfcdf3327d.bindPopup(popup_3bbc318a7620461a96c5e7bc976a1f53)
+        ;
+
+        
+    
+    
+            marker_ae500a1f2d664781bed60ebfcdf3327d.bindTooltip(
+                `<div>
+                     <b>WORK EXPERIENCE <u>CURRENT</u></b> Ministry of Transporation and Infrastructure | GIS Co-op/GIS Technician/ Spatial Analyst
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
