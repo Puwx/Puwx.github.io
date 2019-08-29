@@ -1,1 +1,3 @@
-# Still getting the hang of JavaScript and CSS but this was a function project that was created using the **Folium** Python library.
+# Still getting the hang of JavaScript and CSS but this was a great indroduction to some of the basics concepts of each of the languages.
+
++ The JavaScript and HTML skeleton that this web page uses was developed using the **Folium** library from Python.
