@@ -1,1 +1,1 @@
-# I have no idea how any of this stuff works
+# Still getting the hang of JavaScript and CSS but this was a function project that was created using the **Folium** Python library.
